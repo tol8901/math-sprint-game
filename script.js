@@ -113,7 +113,7 @@ function scoresToDOM() {
     penaltyTime = penaltyTime.toFixed(1);
     baseTimeEl.textContent = `Base Time: ${baseTime}s`;
     penaltyTimeEl.textContent = `Penalty: +${penaltyTime}s`;
-    finalTimeEl.textContent = `${finalTimeDisplay}`;
+    finalTimeEl.textContent = `${finalTimeDisplay}s`;
     updateBestScore();
     // Scroll to the Top, go to Score Page
     itemContainer.scrollTo({ top: 0, behavior: 'instant' });
